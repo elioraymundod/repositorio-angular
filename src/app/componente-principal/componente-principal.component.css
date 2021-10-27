@@ -1,0 +1,212 @@
+
+
+::ng-deep .cdk-overlay-container{
+    z-index: 1200 !important;
+}
+
+
+
+table {
+    width: 100%;
+}
+.titulo{
+    margin: 3%;
+    text-align: center; 
+    background: #1369a0; 
+    color: white; 
+    font-size: 25px;
+    height: 40px; 
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.botones{
+    margin-left: 2%;
+    color: white;
+    background-color: #1369a0;
+}
+
+.btnCancelar{
+    margin-left: 2%;
+    color: white;
+    background-color: red;
+}
+  
+.headerTable{
+    background-color: #1369a0;
+    color: white;
+    text-align: left;
+    font-size: 14px;
+}
+
+.filtro{
+    width: 45%; 
+    margin-top: 2%;
+}
+
+.tamañoTextArea {
+    resize: vertical;
+      resize: none;
+  }
+
+  .tamañoTotal{
+      width: 100%;
+  }
+  .color{
+      background-color: #1369a0;
+      color: white;
+  }
+
+.tipoDocumento{
+width: 50px;
+}
+
+.scrollModal {
+    overflow-y: scroll;
+}
+
+.centrado{
+    justify-content: center;
+    position: relative;
+}
+
+.sinDemora{
+    color: white;
+    background: transparent linear-gradient(180deg, #94B40E 0%, #4A9100 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 18px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+    width: 300px;
+}
+
+.enRiesgo{
+    color: white;
+    background: transparent linear-gradient(180deg, #FFCE00 0%, #FF9D00 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 18px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+}
+
+.atrasado{
+    color: white;
+    background: transparent linear-gradient(180deg, #FF0000 0%, #A30505 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 18px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 100px;
+}
+
+.numeros{
+    
+    font-size: 45px;
+    text-align: right;
+    margin-left: 5%;
+}
+
+.verDetalle{
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.marginTexto{
+    margin-left: 6%;
+}
+
+
+#firstSinDemora {
+    color: white;
+    height: 70px;
+    width: 300px;
+    background: transparent linear-gradient(180deg, #94B40E 0%, #4A9100 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+
+}
+#secondSinDemora {
+    color: white;
+    height: 20px;
+    width: 300px;
+    background: #94B40E 0% 0% no-repeat padding-box;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    cursor: pointer;
+}
+
+#firstEnRiesgo {
+    color: white;
+    height: 70px;
+    width: 300px;
+    background: transparent linear-gradient(180deg, #FFCE00 0%, #FF9D00 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+
+}
+#secondEnRiesgo {
+    color: white;
+    height: 20px;
+    width: 300px;
+    background: #FFCE00 0% 0% no-repeat padding-box;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    cursor: pointer;
+}
+
+#firstAtrasado {
+    color: white;
+    height: 70px;
+    width: 300px;
+    background: transparent linear-gradient(180deg, #FF0000 0%, #A30505 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    opacity: 1;
+    display: flex;
+    align-items: center;
+}
+#secondAtrasado {
+    color: white;
+    height: 20px;
+    width: 300px;
+    background: #FF0000 0% 0% no-repeat padding-box;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    float: right;
+    cursor: pointer;
+}
+
+.bigIcon{
+    width: 18%;
+}
+
+.flecha{
+    width: 4%;
+    height: 2%;
+    margin-top: 1%;
+    margin-left: 60%
+}
+
+.iconoTabla{
+    width: 25%;
+    height: 25%;
+}
